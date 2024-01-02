@@ -9,7 +9,7 @@
     height: 60px;
     width: 100%;
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-between;
 }
 
 #nav-logo{
@@ -34,13 +34,7 @@
     height: 60px;
     width: 205px;
     display: flex;
-}
-
-#nav-main{
-    height: 40px;
-    width: auto;
-    background-color: #0F1111;
-    opacity: 85%;
+    justify-content: center;
 }
 
 .border{
@@ -59,14 +53,15 @@ i{
     width: 15px;
 }
 
-#upper{
+.upper{
     font-size: 12px;
    color: #cccccc;
 }
 
-#lower{
+.lower{
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 700;
+    color: #cccccc;
 }
 
 #loc-text{
@@ -84,7 +79,12 @@ i{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 0.8rem;
+    margin:0.5rem 0.8rem;
+}
+
+#nav-fill:hover{
+    border: 2.5px orange solid;
+    border-radius: 4px;
 }
 #nav-search{
     height: 40px;
@@ -104,7 +104,8 @@ i{
 }
 
 #nav-search input{
-    width: 370px;
+    /* flex-grow: 1; */
+    width: 500px;
     padding-left: 0.6rem;
     font-size: 14px;
     border-radius: 0px;
@@ -128,14 +129,67 @@ font-size: 1.2rem;
 }
 
 #nav-right{
-    width: 384px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    width: auto;
+}
+
+#right-box1, #right-box3, #right-box4{
+    width: 80px;
+}
+
+#right-box2{
+    width: 130px;
+}
+
+.nav-lang{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#right-box4 i{
+    font-size: 1.7rem;
+    padding-right: 7px;
 }
 
 .right-boxes{
-    width: 96px;
-    background-color: pink;
-    align-items: end;
+    justify-content: center;
+    align-content: center;
 }
+
+#right-box1, #right-box2, #right-box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#right-box4{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: baseline;
+   padding-top: 15px;
+   padding-right: 10px;
+}
+
+#right-box2,#right-box3{
+    margin: 2px 0px;
+    padding-left: 10px;
+}
+
+#right-box1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.panel{
+    height: 40px;
+    width: auto;
+    background-color: #0F1111;
+    opacity: 85%;
+    color: #cccccc;
+}
+
+.panel 
