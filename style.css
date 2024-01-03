@@ -272,7 +272,78 @@ font-size: 1.2rem;
   .bg-caption a:hover{
     color: red;
     text-decoration: underline red ;
+    margin: 20px;
+  }
+
+  /* shop-section */
+
+  .shop-section{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin: 10px;
+  }
+
+  .shop-section .line{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+
+  }
+
+  .shop-section .box{
+    width: 23%;
+    height: 400px;
+    background-color: #fdfdfd;
+  }
+
+  .shop-section .box-content{
+    margin: 1rem ;
+    height: 100%;
+  }
+
+  .shop-section .box-image{
+    height: 80%;
+    /* width: 90%; */
+    background-size: cover;
+    margin: 5px 0px;
+  }
+
+  .shop-section .box-content h2{
+    font-size: 21px;
+  }
+
+  .box-content a{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(37, 108, 68);
+    font-weight: 500;
   }
 
 
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .footer{
+    background-color: #05101c;
+    opacity: 85%;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: #cccccc;
+} */
