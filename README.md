@@ -1,40 +1,32 @@
-# Frontend_Project: Amazon-Clone - (using HTML & vanilla CSS)
+# 📦 🌐 Frontend_Project: Amazon-Clone
 
-This project replicates the  and features of Amazon's e-commerce platform.
+This project is dedicated to replicating the UI of the world's largest e-commerce website-AMAZON. By meticulously reproducing essential features, I've not only enhanced my proficiency but also deepened my understanding of the complexities of CSS.
 
-## Features
-
-- **Product Listing:** Display a diverse range of products with detailed information.
-- **Product Details:** Explore in-depth details for each product, including user reviews and ratings.
-- **Shopping Cart:** Add products to a virtual shopping cart for an interactive shopping experience.
-- **User Authentication:** Enhance personalization and security with user authentication.
-- **Responsive Design:** Enjoy a seamless experience on various devices with a responsive and mobile-friendly layout.
-- **Search Functionality:** Quickly find specific products using the search bar.
-
-## Technologies Used
+## 💻 Technologies Used
 
 - **HTML**
 - **CSS**
 - **Google Fonts**
 - **Font Awesome**
 
-## What I learned
+## 🎓 What I Learned
 
 In the course of working on this project, I honed my skills by **applying diverse CSS styling** properties. 
 Although certain features posed challenges during replication, I adeptly managed to recreate them.
 
-## How to Use
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/amazon-clone-frontend.git
-
-## Deployment
+## 🔗 Deployment
 
 Check the deployment status by clicking the badge below:
 
 [![Deploy](https://img.shields.io/badge/Deploy-red?style=for-the-badge&logo=appveyor&logoColor=white)](https://nupur-30.github.io/Amazon-Clone/)
 
+## 📜 Features
 
+- **Page Distribution:** Entire website is divided into sections- navbar, home, footer
+- **Navbar** Contains all essential components- logo, location, cart, sign-in options, order-status.
+- **Home-page** Contains all product listing, making use of css-flexbox.
+- **footer** Contains contact information, copyright-info and other company info.
+- **Product Listing:** Display a diverse range of products with detailed information.
+- **Responsive Design:** Enjoy a seamless experience on various devices with a responsive and mobile-friendly layout.
 
 
