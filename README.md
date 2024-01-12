@@ -1,6 +1,6 @@
-# Amazon Clone - Frontend
+# Frontend_Project: Amazon-Clone - (using HTML & vanilla CSS)
 
-Welcome to the Amazon Clone frontend project! This project replicates the user interface and features of Amazon's e-commerce platform.
+This project replicates the  and features of Amazon's e-commerce platform.
 
 ## Features
 
@@ -31,11 +31,9 @@ Although certain features posed challenges during replication, I adeptly managed
 
 ## Deployment
 
-To deploy this project run
+Check the deployment status by clicking the badge below:
 
-```bash
-  npm run deploy
-```
+[![Deploy](https://img.shields.io/badge/Deploy-red?style=for-the-badge&logo=appveyor&logoColor=white)](https://nupur-30.github.io/Amazon-Clone/)
 
 
 
